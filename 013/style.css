@@ -1,0 +1,119 @@
+.navigator {
+    padding: 20px;
+    background-color: bisque;
+}
+
+.navigator   a {
+    color: cadetblue;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.navigator  a:hover {
+    color: darkgoldenrod;
+}
+
+.navigator > a {
+    color: deeppink;
+}
+
+.navigator > a:hover {
+    color: darkred;
+}
+
+.navigator ~ a {
+    color: darkseagreen;
+}
+
+.navigator ~ a:hover {
+    color: yellowgreen;
+}
+
+.navigator + a {
+    color: darkblue;
+}
+
+.navigator + a:hover {
+    color: lightblue;
+}
+
+[target] {
+    font-weight: bold;
+}
+
+[target=_top] {
+    background-color: slateblue;
+}
+
+[title*="ti"] {
+    background-color: lightgrey;
+}
+
+.l {
+float: left;
+}
+
+.r {
+    float: right;
+}
+.px {
+    width: 96px;
+    height: 96px;
+    background-color: mediumorchid;
+}
+.mm {
+    width: 25.4mm;
+    height: 25.4mm;
+    background-color: midnightblue;
+}
+.in {
+    width: 1in;
+    height: 1in;
+    background-color: red;
+}
+
+.pt {
+    width: 72pt;
+    height: 72pt;
+    background-color: salmon;
+}
+html {
+    font-size: 20px;
+
+}
+body {
+    margin: 0;
+}
+.em {
+    width: 4.8em;
+    height: 4.8em;
+    background-color: seagreen;
+    font-size: 22px;
+}
+.rem {
+    width: 4.8rem;
+    height: 4.8rem;
+    background-color: yellowgreen;
+    font-size: 30px;
+}
+.big1 {
+    width: 100%;
+    height: 100%;
+    background-color: thistle;
+}
+.big2 {
+    width: 15vw;
+    height: 15vh;
+    background-color: tomato;
+   
+}
+.back {
+    height: 196px;
+    width: 196px;
+    background-color: violet;
+    background-image: url("http://www.trainweb.org/oldtimetrains/CPR_Bruce/2925a.jpg");
+    background-size: ;
+
+}

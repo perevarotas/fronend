@@ -1,0 +1,36 @@
+
+
+#a1 {
+    color: tomato;
+}
+.prat1 span {
+color: darkmagenta;
+}
+
+h1.prat1 span {
+    color: rgb(0, 139, 30);
+    }
+
+.prat1 span {
+    color:blue;
+}
+
+.prat1 {
+    color: yellow;
+}
+.prat2 {
+    color: darkturquoise;
+}
+
+.prat3 {
+    color: fuchsia;
+    border: 1px solid blue
+}
+
+span{
+    color: red;
+}
+
+code {
+    color: grey;
+}

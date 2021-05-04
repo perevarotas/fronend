@@ -1,0 +1,55 @@
+.ka {
+    color: blueviolet !important;
+    letter-spacing: 5px;
+}
+
+.kb {
+    color: darkcyan;
+    letter-spacing: 5px;
+}
+
+
+
+
+body {
+    background-color: mistyrose;
+    letter-spacing: -.31em;
+    text-rendering: optimizespeed;
+    margin: 0;
+}
+ 
+div {
+    box-sizing: border-box;
+    zoom: 1;
+    letter-spacing: normal;
+    text-rendering: auto;
+}
+
+.box {
+border: 1px solid hotpink;
+border-left: none;
+background-color: lightblue;
+padding: 10px 20px;
+/*margin: 4px;*/
+height: 100px;
+width: 140px;
+width: 33.333333%;
+display: inline-block;
+}
+
+.box.first {
+    border-left: 1px solid hotpink;
+
+}
+.box span {
+    background-color: lightseagreen;
+    color: red;
+    display: block;
+    width: 60%;
+    text-align: center;
+    height: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: calc(50% - 10px);
+    
+}

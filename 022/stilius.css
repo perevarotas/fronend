@@ -1,0 +1,19 @@
+.one h1 {
+  color: red;
+  display: inline-block;
+  border: 3px solid green;
+  width: 30%;
+}
+
+.one h1 span {
+  color: blueviolet;
+  display: inline-block;
+  border: 3px solid green;
+}
+
+.one h1 span i {
+  color: chocolate;
+  display: inline-block;
+  border: 3px solid green;
+}
+/*# sourceMappingURL=stilius.css.map */

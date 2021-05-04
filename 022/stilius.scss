@@ -1,0 +1,21 @@
+$bortelis: 3px solid green;
+
+
+.one {
+    h1 {
+    color: red;
+    display: inline-block;
+    border: $bortelis;
+    width: 30%;
+    span {
+        color: blueviolet;
+        display: inline-block;
+        border: $bortelis;
+        i {
+            color: chocolate;
+            display: inline-block;
+            border: $bortelis;
+        }
+    }
+}
+}

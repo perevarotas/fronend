@@ -1,0 +1,19 @@
+p {
+    color: yellow;
+}
+li {
+    color:brown
+}
+
+p:first-child {
+    color: blue
+}
+p:last-child {
+    color: red;
+}
+li:first-child {
+    color: blue;
+}
+li:last-child {
+    
+}

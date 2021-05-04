@@ -1,0 +1,15 @@
+.ps {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: coral;
+    
+}
+
+.ps:hover {
+
+    width: 1000px;
+    border-radius: 20px;
+    background-color: coral;
+    transition: width 1s linear 0.5s;
+}

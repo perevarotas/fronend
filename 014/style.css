@@ -1,0 +1,48 @@
+body {
+    letter-spacing: -.31em;
+    padding: 0;
+    margin: 0;
+}
+
+
+.box {
+    letter-spacing: normal;
+    display: inline-block;
+}
+.cont .box{
+    box-sizing: border-box;
+    position: relative;
+    width: 33.33333%;
+    text-align: center;
+    height: 200px;
+    padding: 70px;
+    font-size: large;
+}
+
+
+.box.vienas {
+    background-color: darkgoldenrod;
+}
+
+.box.du {
+    background-color: darkred;
+}
+
+.box.tris {
+    background-color: deepskyblue;
+}
+
+
+@media screen and (max-width:1000px){
+    .box.vienas, .box.du {
+        width:50%
+    }
+    .box.tris {
+        width: 100%;
+}
+@media screen and (max-width: 500px) {
+    .cont .box {
+        width:100%;
+    }
+}
+}
